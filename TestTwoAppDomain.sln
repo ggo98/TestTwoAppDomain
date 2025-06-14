@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36203.30 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedLib", "SharedLib\SharedLib.csproj", "{D7AE7450-8103-474E-BADA-87EC535F5D38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsolatedLib", "IsolatedLib\IsolatedLib.csproj", "{4C4EE2E1-101B-47C8-9E77-CE92B0034485}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetExe", "DotNetExe\DotNetExe.csproj", "{6F6BFA13-F819-4C11-A6AE-9E8FCEB1CF9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7AE7450-8103-474E-BADA-87EC535F5D38}.Debug|x64.ActiveCfg = Debug|x64
+		{D7AE7450-8103-474E-BADA-87EC535F5D38}.Debug|x64.Build.0 = Debug|x64
+		{D7AE7450-8103-474E-BADA-87EC535F5D38}.Release|x64.ActiveCfg = Release|x64
+		{D7AE7450-8103-474E-BADA-87EC535F5D38}.Release|x64.Build.0 = Release|x64
+		{4C4EE2E1-101B-47C8-9E77-CE92B0034485}.Debug|x64.ActiveCfg = Debug|x64
+		{4C4EE2E1-101B-47C8-9E77-CE92B0034485}.Debug|x64.Build.0 = Debug|x64
+		{4C4EE2E1-101B-47C8-9E77-CE92B0034485}.Release|x64.ActiveCfg = Release|x64
+		{4C4EE2E1-101B-47C8-9E77-CE92B0034485}.Release|x64.Build.0 = Release|x64
+		{6F6BFA13-F819-4C11-A6AE-9E8FCEB1CF9F}.Debug|x64.ActiveCfg = Debug|x64
+		{6F6BFA13-F819-4C11-A6AE-9E8FCEB1CF9F}.Debug|x64.Build.0 = Debug|x64
+		{6F6BFA13-F819-4C11-A6AE-9E8FCEB1CF9F}.Release|x64.ActiveCfg = Release|x64
+		{6F6BFA13-F819-4C11-A6AE-9E8FCEB1CF9F}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F65BE30-2D85-465F-A662-B8689F4CDC92}
+	EndGlobalSection
+EndGlobal
